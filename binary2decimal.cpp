@@ -10,6 +10,13 @@ int decimal(int n)
        d=d+rem*pow;
        pow=pow*2;
    }
+ /*while (n>0)
+   {
+         rem=n%10;
+         n/=10;
+         d+=rem*pow;
+         pow*=2;
+   }*/
    cout<<"Decimal num is : "<<d;
 }
 int main()
